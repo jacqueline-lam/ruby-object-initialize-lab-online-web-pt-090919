@@ -6,13 +6,13 @@ class Dog
   end
   
   attr_accessor:breed
-  def name=(name)
-    @name = name
-  end
+  # def name=(name)
+  #   @name = name
+  # end
   
-  def name
-    @name
-  end
+  # def name
+  #   @name
+  # end
   
   attr_accessor:breed
   # def breed=(breed)
