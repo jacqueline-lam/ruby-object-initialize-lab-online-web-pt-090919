@@ -1,8 +1,8 @@
 class Dog
-  def initialize(name)
+  def initialize(name, breed="Mutt")
     #stored within a @name and @breed instance var
     @name = name
-    # @breed = breed
+    @breed = breed
   end
   
   def name=(name)
