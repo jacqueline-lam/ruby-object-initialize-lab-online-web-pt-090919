@@ -5,7 +5,7 @@ class Dog
     @breed = breed
   end
   
-  attr_accessor:breed
+  attr_accessor:name
   # def name=(name)
   #   @name = name
   # end
