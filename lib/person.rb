@@ -1,0 +1,25 @@
+class Person
+  def initialize(name, breed="Mutt")
+    #stored within a @name instance var
+    @name = name
+    @breed = breed
+  end
+  
+  def name=(name)
+    @name = name
+  end
+  
+  def name
+    @name
+  end
+  
+  attr_accessor:breed
+  # def breed=(breed)
+  #   @breed = breed
+  # end
+  
+  # def breed
+  #   @mutt
+  # end
+  
+end
