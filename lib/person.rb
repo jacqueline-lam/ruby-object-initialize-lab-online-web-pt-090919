@@ -1,8 +1,8 @@
 class Person
-  def initialize(name, breed="Mutt")
+  def initialize(name)
     #stored within a @name and @breed instance var
     @name = name
-    @breed = breed
+    # @breed = breed
   end
   
   def name=(name)
@@ -14,12 +14,12 @@ class Person
   end
   
   # attr_accessor:breed
-  def breed=(breed)
-    @breed = breed
-  end
+  # def breed=(breed)
+  #   @breed = breed
+  # end
   
-  def breed
-    @mutt
-  end
+  # def breed
+  #   @mutt
+  # end
   
 end
