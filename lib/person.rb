@@ -1,6 +1,6 @@
 class Person
   def initialize(name, breed="Mutt")
-    #stored within a @name instance var
+    #stored within a @name and @breed instance var
     @name = name
     @breed = breed
   end
